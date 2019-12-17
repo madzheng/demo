@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class IndexController {
 
+    //此处为主页
     @RequestMapping("/index")
     public String toIndex(){
         return "/welcome";
